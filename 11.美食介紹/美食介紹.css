@@ -1,0 +1,315 @@
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0%;
+    font-family: yozai;  
+}
+
+.banner {
+    width: 100%;
+    height: 12%;
+    background-color: #fff;
+    position: absolute;
+    position: fixed;
+    box-shadow:2px 2px 4px 2px #e9e9e9;
+    z-index: 9999;
+}
+
+.nav {
+    text-align: center;
+    text-indent: 60px;
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 220px;
+
+}
+
+.nav img {
+    width: 40px;
+    height: 40px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+#train {
+    width: 64px;
+    height: 80px;
+    margin-left: 80px;
+    margin-top: 15px;
+    float: left;
+}
+
+h1 {
+    float: left;
+    font-size: 56px;
+    margin-top: 19px;
+    margin-left: 15px;
+}
+
+p{
+    font-family: LXGW WenKai;
+}
+
+#title:hover {
+    text-shadow: 1px 2px 2px rgb(0, 0, 0);
+    color: black;
+}
+
+a:hover {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    color: #00c0b2;
+}
+
+.rail{
+    background-image: url(../圖片/鐵軌背景圖\ 2.png);
+    background-repeat: no-repeat;
+    width: 96%;
+    height: 20%;
+    /* margin-top: 6.3%; */
+    margin-top: -9.3%;
+    margin-left: 2%;
+    border-radius: 20px;
+    float: left;
+    z-index: 9999;
+}
+.btn:hover {
+    transform: scale(1.2);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    background-color: #004b54;
+    color: #fff;
+    border: 3px solid #fff;
+}
+.icon {
+    float: left;
+    width: 65px;
+    height: 65px;
+    margin-top: 75px;
+    margin-left: 6%;
+}
+
+.btn {
+    float: left;
+    width: 90px;
+    height: 45px;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 35px;
+    font-family: yozai;
+    border: 3px solid #333;
+    margin-top: 15px;
+    margin-left: -80px;
+}
+#icon1 {
+    margin-left: 140px;
+}
+
+#bluetrain{
+    position: fixed;
+    margin-top: 55px;
+    margin-left: 15px;
+    width: 630px;
+
+}
+
+#yellowtrain{
+    float: left;
+    margin-top: 265px;
+    margin-left: 37px;
+    width: 1825px;
+}
+
+
+footer{
+    background-image: url(../圖片/頁尾背景圖.png);
+    background-repeat: no-repeat;
+    width: 96%;
+    height: 170px;
+    margin-top: 100px;
+    margin-bottom: -500px;
+    margin-left: 2%;
+    float: left;
+}
+#copyright{
+    margin-top: 90px;
+    margin-left: 30px;  
+}
+#footertop{
+    float: left;
+    width: 5%;
+    margin-top: -60px;
+    margin-left: 48%;
+}
+#footertrain{
+    width: 64px;
+    height: 80px;
+    float: left;
+    margin-top: -100px;
+    margin-left: 1730px;
+}
+
+/* .content{ 
+    background-image: url(../圖片/封面1.png);
+    width: 100%;
+    height: 7487px;
+} */
+
+.station{
+    border: 1px solid green;
+    background-color: #00a99d;
+    border-radius: 50px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 254px;
+    width: 1392px;
+    height: 80px;
+    text-align: center;
+    color: #fff;
+    font-size: 2.5rem;
+}
+.station p{
+    margin-top: 13px;  
+}
+.picture{
+    width: 320px;
+    height: 220px;
+    float: left;
+}
+.container{
+    float: left;
+    margin-top: 26px;
+    margin-left: 26px;
+    width: 320px;
+    height: 220px;
+}
+.content p{
+    float: left;
+    margin-top: 90px;
+    margin-left: -10px;
+    color: #004b54;
+    font-size: 1.37rem;
+    font: bold;
+}
+.foodpic{
+    margin-top: 10px;
+    margin-left: 94px;
+    float: left;
+}
+.foodpic a{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 10px;
+    width: 22px;
+    height: 22px;
+    display: block;
+    text-align: center;
+    float: left;
+    border-radius: 50%;
+    font-weight: bold;
+}
+.content{
+    background-color: #c2e9fa;
+    border: 2px solid #333;
+    margin-top: 100px;
+    float: left;
+    width: 370px;
+    height: 730px;
+}
+.name{
+    background-color: #015aec;
+    margin-top: -420px;
+    margin-left: -26px;
+    float: left;
+    width: 370px;
+    height: 50px;
+}
+.nametext{
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 3px;
+    float: left;
+}
+#foodpic1 a{
+    margin-left: 10px;
+}
+#foodpic2 a{
+    margin-left: 10px;
+}
+#foodpic3 a{
+    margin-left: 10px;
+}
+#foodpic4 a{
+    margin-left: 10px;
+}
+#foodpic5 a{
+    margin-left: 10px;
+}
+#foodpic6 a{
+    margin-left: 10px;
+}
+#content1{  
+    margin-left: 260px;
+}
+#content2{
+    margin-left: 130px;
+}
+#content3{
+    margin-left: 130px;
+}
+#content4{  
+    margin-left: 260px;
+}
+#content5{
+    margin-left: 130px;
+}
+#content6{
+    margin-left: 130px;
+}
+#name1{
+    margin-top: -420px;
+}
+#name2{
+    margin-top: -450px; 
+}
+#name3{
+    margin-top: -420px;
+}
+#name4{
+    margin-top: -420px;
+}
+#name5{
+    margin-top: -420px; 
+}
+#name6{
+    margin-top: -420px;
+}
+#nametext1{
+    margin-left: 110px; 
+}
+#nametext2{
+    margin-left: 127px;  
+}
+#nametext3{
+    margin-left: 127px;
+}
+#nametext4{
+    margin-left: 110px; 
+}
+#nametext5{
+    margin-left: 127px;  
+}
+#nametext6{
+    margin-left: 127px;
+}
+

@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美食介紹</title>
+    <link rel="stylesheet" href="./美食介紹.css">
+    <!-- jQuery 主程式 -->
+    <script src="./jquery-1.11.3.min.js"></script>
+    <!-- 輪播的主程式 -->
+    <script src="./jquery.cycle.all.js"></script>
+    <!-- 自己撰寫的jQuery -->
+    <script>
+        $(document).ready(function(){
+            // 啟動輪播
+            $('#img-cycle1').after('<div id="foodpic1" class=foodpic>').cycle({
+                fx:'scrollRight',   // 輪播的方式
+                delay:-2000,        // 第一張圖停留的時間（毫秒ms --> 1秒=1000毫秒）
+                timeout:1000,        // 輪播的速度
+                sync:true,           // 下一張出現時，前一張不會馬上消失
+                pager:'#foodpic1'
+            });
+        });
+
+        $(document).ready(function(){
+            // 啟動輪播
+            $('#img-cycle2').after('<div id="foodpic2" class=foodpic>').cycle({
+                fx:'scrollRight',   // 輪播的方式
+                delay:-2000,        // 第一張圖停留的時間（毫秒ms --> 1秒=1000毫秒）
+                timeout:1000,        // 輪播的速度
+                sync:true,           // 下一張出現時，前一張不會馬上消失
+                pager:'#foodpic2'
+            });
+        });
+
+        $(document).ready(function(){
+            // 啟動輪播
+            $('#img-cycle3').after('<div id="foodpic3" class=foodpic>').cycle({
+                fx:'scrollRight',   // 輪播的方式
+                delay:-2000,        // 第一張圖停留的時間（毫秒ms --> 1秒=1000毫秒）
+                timeout:1000,        // 輪播的速度
+                sync:true,           // 下一張出現時，前一張不會馬上消失
+                pager:'#foodpic3'
+            });
+        });
+
+        $(document).ready(function(){
+            // 啟動輪播
+            $('#img-cycle4').after('<div id="foodpic4" class=foodpic>').cycle({
+                fx:'scrollRight',   // 輪播的方式
+                delay:-2000,        // 第一張圖停留的時間（毫秒ms --> 1秒=1000毫秒）
+                timeout:1000,        // 輪播的速度
+                sync:true,           // 下一張出現時，前一張不會馬上消失
+                pager:'#foodpic4'
+            });
+        });
+
+        $(document).ready(function(){
+            // 啟動輪播
+            $('#img-cycle5').after('<div id="foodpic5" class=foodpic>').cycle({
+                fx:'scrollRight',   // 輪播的方式
+                delay:-2000,        // 第一張圖停留的時間（毫秒ms --> 1秒=1000毫秒）
+                timeout:1000,        // 輪播的速度
+                sync:true,           // 下一張出現時，前一張不會馬上消失
+                pager:'#foodpic5'
+            });
+        });
+
+        $(document).ready(function(){
+            // 啟動輪播
+            $('#img-cycle6').after('<div id="foodpic6" class=foodpic>').cycle({
+                fx:'scrollRight',   // 輪播的方式
+                delay:-2000,        // 第一張圖停留的時間（毫秒ms --> 1秒=1000毫秒）
+                timeout:1000,        // 輪播的速度
+                sync:true,           // 下一張出現時，前一張不會馬上消失
+                pager:'#foodpic6'
+            });
+        });
+    </script>
+    
+</head>
+<body>
+    <marquee id="yellowtrain" direction="right"><img src="../圖片/黃色火車.png" alt=""></marquee>
+    <div class="banner">
+        <a href="../0.首頁/首頁.html"><img id="train" src="../圖片/小火車.png" alt=""></a>
+        <a href="../0.首頁/首頁.html"><h1 id="title">平溪線</h1></a>
+        <table class="nav">
+            <tr>
+                <td>
+                    <a href="../10.平溪線歷史/平溪線歷史.html">
+                        <img src="../圖片/平溪線歷史.png" alt="">
+                    </a>
+                </td>
+                <td>
+                    <a href="./美食介紹.html">
+                        <img src="../圖片/美食介紹.png" alt="">
+                    </a>
+                </td>
+                <td>
+                    <a href="../12.時刻表/時刻表.html">
+                        <img src="../圖片/時刻表.png" alt="">
+                    </a>
+                </td>
+                <td>
+                    <a target="_blank" href="https://www.railway.gov.tw/tra-tip-web/tip/tip003/tip313/view10">
+                        <img src="../圖片/一日週遊券.png" alt="">
+                    </a>
+                </td>
+                <td>
+                    <a href="../13.關於我們/關於我們.html">
+                        <img src="../圖片/關於我們.png" alt="">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="../10.平溪線歷史/平溪線歷史.html">平溪線歷史</a></td>
+                <td><a href="./美食介紹.html">美食介紹</a></td>
+                <td><a href="../12.時刻表/時刻表.html">時刻表</a></td>
+                <td><a target="_blank" href="https://www.railway.gov.tw/tra-tip-web/tip/tip003/tip313/view10">一日週遊券</a></td>
+                <td><a href="../13.關於我們/關於我們.html">關於我們</a></td>
+
+            </tr>
+        </table>
+        <marquee id="bluetrain" direction="right"><img src="../圖片/藍色火車.png" alt=""></marquee>
+    </div>
+
+    <div class="rail">
+        <a href="../1.瑞芳/瑞芳.html">
+            <img id="icon1" class="icon" src="../圖片/地標按鈕 沒下面的.png" alt="">
+            <button id="btn1" class="btn">
+                瑞芳
+            </button>
+        </a>
+
+        <a href="../2.猴硐/猴硐.html">
+            <img id="icon2" class="icon" src="../圖片/地標按鈕 沒下面的.png" alt="">
+            <button id="btn2" class="btn">
+                猴硐
+            </button>
+        </a>
+
+        <a href="../3.三貂嶺/三貂嶺.html">
+            <img id="icon3" class="icon" src="../圖片/地標按鈕 沒下面的.png" alt="">
+            <button id="btn3" class="btn">
+                三貂嶺
+            </button>
+        </a>
+
+        <a href="../4.大華/大華.html">
+            <img id="icon4" class="icon" src="../圖片/地標按鈕 沒下面的.png" alt="">
+            <button id="btn4" class="btn">
+                大華
+            </button>
+        </a>
+
+        <a href="../5.十分/十分.html">
+            <img id="icon5" class="icon" src="../圖片/地標按鈕 沒下面的.png" alt="">
+            <button id="btn5" class="btn">
+                十分
+            </button>
+        </a>
+
+        <a href="../6.望古/望古.html">
+            <img id="icon6" class="icon" src="../圖片/地標按鈕 沒下面的.png" alt="">
+            <button id="btn6" class="btn">
+                望古
+            </button>
+        </a>
+
+        <a href="../7.嶺腳/嶺腳.html">
+            <img id="icon7" class="icon" src="../圖片/地標按鈕 沒下面的.png" alt="">
+            <button id="btn7" class="btn">
+                嶺腳
+            </button>
+        </a>
+
+        <a href="../8.平溪/平溪.html">
+            <img id="icon8" class="icon" src="../圖片/地標按鈕 沒下面的.png" alt="">
+            <button id="btn8" class="btn">
+                平溪
+            </button>
+        </a>
+
+        <a href="../9.菁桐/菁桐.html">
+            <img id="icon9" class="icon" src="../圖片/地標按鈕 沒下面的.png" alt="">
+            <button id="btn9" class="btn">
+                菁桐
+            </button>
+        </a>
+
+    </div>
+
+    <div class="station">
+        <p>瑞芳</p>
+    </div>
+   
+    <div id="content1" class="content">
+        <div class="container">
+            <div id="img-cycle1">
+                <img class="picture" src="../圖片/Rectangle 228.png" alt="">
+                <img class="picture" src="./LINE_ALBUM_20221112  平溪線_221116_37 1 (1).png" alt="">
+                <img class="picture" src="./LINE_ALBUM_20221112  平溪線_221116_4 (1) 1 (1).png" alt="">
+                <img class="picture" src="./LINE_ALBUM_20221112  平溪線_221116_8 1 (1).png" alt="">
+            </div>
+            <p>
+                電話：0933-929-158 <br>
+                地址：新北市瑞芳區民生街25號 <br>
+                營業時間:08:30–15:00(週四公休)  <br>
+                <br>
+                食物介紹:龍鳳腿售價12元，所謂 <br>
+                的龍鳳腿餡料就是用了魚漿、豬 <br>
+                腿肉、高麗菜、洋蔥、紅蘿蔔等 <br>
+                等，然後用豬油網包起來下去油 <br>
+                炸，龍鳳腿現炸現吃有夠好吃， <br>
+                表皮微微酥脆，一口咬下肉餡飽 <br>
+                滿，還有蔬菜的甜美又多汁。
+            </p>
+            <div id="name1" class="name">
+                <h2 id="nametext1" class="nametext">阿霞龍鳳腿</h2>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="content2" class="content">
+        <div class="container">
+            <div id="img-cycle2">
+                <img class="picture" src="./LINE_ALBUM_20221112  平溪線_221116_3 10 (1).png" alt="">
+                <img class="picture" src="./LINE_ALBUM_20221112  平溪線_221116_37 1 (1).png" alt="">
+                <img class="picture" src="./LINE_ALBUM_20221112  平溪線_221116_4 (1) 1 (1).png" alt="">
+                <img class="picture" src="./LINE_ALBUM_20221112  平溪線_221116_8 1 (1).png" alt="">
+            </div>
+            <p>
+                電話：0920-312-468 <br>
+                地址：新北市瑞芳區民生街35巷 <br>
+                2號(8號攤位) <br>
+                營業時間:08:00–20:00 <br>
+                <br>
+                食物介紹:招牌菜色是肉羹跟魷魚 <br>
+                可以搭配各種麵、飯、米粉、冬 <br>
+                粉、粄條等。肉羹湯上有滿滿的 <br>
+                香菜，大骨湯頭加上淡淡的勾芡 <br>
+                不會膩口黑醋與沙茶、油蔥的調 <br>
+                味恰到好處，豬肉塊加上魚漿做 <br>
+                出來的肉羹，吃得到完整豬肉。
+            </p>
+            <div id="name2" class="name">
+                <h2 id="nametext2" class="nametext">豐味肉羹</h2>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="content3" class="content">
+        <div class="container">
+            <div id="img-cycle3">
+                <img class="picture" src="./LINE_ALBUM_20221112  平溪線_221116_3 10 (1).png" alt="">
+                <img class="picture" src="./LINE_ALBUM_20221112  平溪線_221116_37 1 (1).png" alt="">
+                <img class="picture" src="./LINE_ALBUM_20221112  平溪線_221116_4 (1) 1 (1).png" alt="">
+                <img class="picture" src="./LINE_ALBUM_20221112  平溪線_221116_8 1 (1).png" alt="">
+            </div>
+            <p>
+                電話：02-2497-4268 <br>
+                地址：新北市瑞芳區瑞芳街8號 <br>
+                營業時間:10:00–21:00  <br>
+                <br>
+                食物介紹:菜單除了甜點之外，還<br>
+                有菜頭滷，兩人以上也可以點套 <br>
+                餐，非常划算。而芋圓的創始者 <br>
+                就是保雲阿罵，也難怪他們的芋 <br>
+                園那麼好吃，推薦保雲芋園的豆 <br>
+                花和嫩仙草，非常的順口、滑 <br>
+                嫩，夏天來一碗非常的消暑。
+
+            </p>
+            <div id="name3" class="name">
+                <h2 id="nametext3" class="nametext">保雲芋圓</h2>
+
+            </div>
+        </div>
+    </div>
+    
+    <div class="station">
+        <p>猴硐</p>
+    </div>
+    
+    <div id="content4" class="content">
+        <div class="container">
+            <div id="img-cycle4">
+                <img class="picture" src="../圖片/Rectangle 228.png" alt="">
+                <img class="picture" src="./LINE_ALBUM_20221112  平溪線_221116_37 1 (1).png" alt="">
+                <img class="picture" src="./LINE_ALBUM_20221112  平溪線_221116_4 (1) 1 (1).png" alt="">
+                <img class="picture" src="./LINE_ALBUM_20221112  平溪線_221116_8 1 (1).png" alt="">
+            </div>
+            <p>
+                電話：0933-929-158 <br>
+                地址：新北市瑞芳區民生街25號 <br>
+                營業時間:08:30–15:00(週四公休)  <br>
+                <br>
+                食物介紹:龍鳳腿售價12元，所謂 <br>
+                的龍鳳腿餡料就是用了魚漿、豬 <br>
+                腿肉、高麗菜、洋蔥、紅蘿蔔等 <br>
+                等，然後用豬油網包起來下去油 <br>
+                炸，龍鳳腿現炸現吃有夠好吃， <br>
+                表皮微微酥脆，一口咬下肉餡飽 <br>
+                滿，還有蔬菜的甜美又多汁。
+            </p>
+            <div id="name4" class="name">
+                <h2 id="nametext4" class="nametext">阿霞龍鳳腿</h2>
+
+            </div>
+        </div>
+    </div>
+    <div id="content5" class="content">
+        <div class="container">
+            <div id="img-cycle5">
+                <img class="picture" src="../圖片/Rectangle 228.png" alt="">
+                <img class="picture" src="./LINE_ALBUM_20221112  平溪線_221116_37 1 (1).png" alt="">
+                <img class="picture" src="./LINE_ALBUM_20221112  平溪線_221116_4 (1) 1 (1).png" alt="">
+                <img class="picture" src="./LINE_ALBUM_20221112  平溪線_221116_8 1 (1).png" alt="">
+            </div>
+            <p>
+                電話：0933-929-158 <br>
+                地址：新北市瑞芳區民生街25號 <br>
+                營業時間:08:30–15:00(週四公休)  <br>
+                <br>
+                食物介紹:龍鳳腿售價12元，所謂 <br>
+                的龍鳳腿餡料就是用了魚漿、豬 <br>
+                腿肉、高麗菜、洋蔥、紅蘿蔔等 <br>
+                等，然後用豬油網包起來下去油 <br>
+                炸，龍鳳腿現炸現吃有夠好吃， <br>
+                表皮微微酥脆，一口咬下肉餡飽 <br>
+                滿，還有蔬菜的甜美又多汁。
+            </p>
+            <div id="name5" class="name">
+                <h2 id="nametext5" class="nametext">阿霞龍鳳腿</h2>
+
+            </div>
+        </div>
+    </div>
+    <div id="content6" class="content">
+        <div class="container">
+            <div id="img-cycle6">
+                <img class="picture" src="../圖片/Rectangle 228.png" alt="">
+                <img class="picture" src="./LINE_ALBUM_20221112  平溪線_221116_37 1 (1).png" alt="">
+                <img class="picture" src="./LINE_ALBUM_20221112  平溪線_221116_4 (1) 1 (1).png" alt="">
+                <img class="picture" src="./LINE_ALBUM_20221112  平溪線_221116_8 1 (1).png" alt="">
+            </div>
+            <p>
+                電話：0933-929-158 <br>
+                地址：新北市瑞芳區民生街25號 <br>
+                營業時間:08:30–15:00(週四公休)  <br>
+                <br>
+                食物介紹:龍鳳腿售價12元，所謂 <br>
+                的龍鳳腿餡料就是用了魚漿、豬 <br>
+                腿肉、高麗菜、洋蔥、紅蘿蔔等 <br>
+                等，然後用豬油網包起來下去油 <br>
+                炸，龍鳳腿現炸現吃有夠好吃， <br>
+                表皮微微酥脆，一口咬下肉餡飽 <br>
+                滿，還有蔬菜的甜美又多汁。
+            </p>
+            <div id="name6" class="name">
+                <h2 id="nametext6" class="nametext">阿霞龍鳳腿</h2>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="station">
+        <p>三貂嶺</p>
+    </div>
+    
+</body>
+</html>

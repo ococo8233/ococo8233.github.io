@@ -1,0 +1,248 @@
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0%;
+    font-family: yozai;
+}
+
+.banner {
+    width: 100%;
+    height: 10%;
+    position: fixed;
+}
+
+.nav {
+    text-align: center;
+    text-indent: 60px;
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 220px;
+
+}
+
+.nav img {
+    width: 40px;
+    height: 40px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+#train {
+    width: 64px;
+    height: 80px;
+    margin-left: 80px;
+    margin-top: 15px;
+    float: left;
+}
+
+h1 {
+    float: left;
+    font-size: 56px;
+    margin-top: 19px;
+    margin-left: 15px;
+}
+
+h1:hover {
+    text-shadow: 1px 2px 2px rgb(0, 0, 0);
+    color: black;
+}
+
+a:hover {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    color: #00c0b2;
+}
+
+#bluetrain{
+    /* position: fixed; */
+    float: left;
+    margin-top: -80px;
+    margin-left: 1310px;
+}
+
+.background {
+    background-image: url(../圖片/平溪線地圖\ \(3\).png);
+    background-repeat: no-repeat;
+    width: 96%;
+    height: 85%;
+    margin-top: 5.8%;
+    margin-left: 2%;
+    border-radius: 30px;
+    float: left;
+}
+
+.icon {
+    float: left;
+    width: 65px;
+    height: 65px;
+}
+
+.pic {
+    float: left;
+}
+
+.btn {
+    float: left;
+    width: 45px;
+    height: 100px;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 35px;
+    font-family: yozai;
+    border: 3px solid #333;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    background-color: #004b54;
+    color: #fff;
+    border: 3px solid #fff;
+}
+
+#icon1 {
+    margin-left: 1160px;
+    margin-top: 10px;
+}
+
+#icon2 {
+    margin-left: 320px;
+    margin-top: 150px;
+}
+
+#icon3 {
+    margin-left: 1600px;
+    margin-top: 100px;
+}
+
+#icon4 {
+    margin-left: 1510px;
+    margin-top: 100px;
+}
+
+#icon5 {
+    margin-left: 1150px;
+    margin-top: -128px;
+}
+
+#icon6 {
+    margin-left: 930px;
+    margin-top: -180px;
+}
+
+#icon7 {
+    margin-left: 690px;
+    margin-top: -230px;
+}
+
+#icon8 {
+    margin-left: -410px;
+    margin-top: -190px;
+}
+
+#icon9 {
+    margin-left: -700px;
+    margin-top: -200px;
+}
+
+#pic1 {
+    width: 200px;
+    margin-top: 60px;
+    margin-left: -270px;
+}
+
+#pic2 {
+    margin-top: 100px;
+}
+
+#pic3 {
+    margin-top: 40px;
+}
+
+#pic4 {
+    margin-top: 180px;
+    margin-left: 50px;
+    width: 150px;
+}
+
+#pic5 {
+    margin-top: -330px;
+    margin-left: 1220px;
+}
+
+#pic6 {
+    margin-top: -400px;
+    margin-left: 880px;
+}
+
+#pic7 {
+    margin-top: -125px;
+    margin-left: 640px;
+}
+
+#pic8 {
+    margin-top: -360px;
+    margin-left: -500px;
+}
+
+#pic9 {
+    margin-top: -120px;
+    margin-left: -710px;
+}
+
+#btn1 {
+    margin-top: 95px;
+    margin-left: -55px;
+
+}
+
+#btn2 {
+    margin-top: 138px;
+    margin-left: -320px;
+}
+
+#btn3 {
+    margin-top: -120px;
+    margin-left: 1525px;
+    line-height: 1.5;
+}
+
+#btn4 {
+    margin-top: 180px;
+    margin-left: -255px;
+}
+
+#btn5 {
+    margin-top: -245px;
+    margin-left: 1160px;
+}
+
+#btn6 {
+    margin-top: -100px;
+    margin-left: 940px;
+}
+
+#btn7 {
+    margin-top: -350px;
+    margin-left: -134px;
+}
+
+#btn8 {
+    margin-top: -105px;
+    margin-left: -400px;
+}
+
+#btn9 {
+    margin-top: -320px;
+    margin-left: -690px;
+}

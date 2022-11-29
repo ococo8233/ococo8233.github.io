@@ -1,0 +1,65 @@
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0%;
+    font-family: yozai;
+    background-color: #fafae0;
+}
+
+.banner {
+    width: 100%;
+    height: 10%;
+    position: fixed;
+}
+
+.nav {
+    text-align: center;
+    text-indent: 60px;
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 220px;
+
+}
+
+.nav img {
+    width: 40px;
+    height: 40px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+#train {
+    width: 64px;
+    height: 80px;
+    margin-left: 80px;
+    margin-top: 15px;
+    float: left;
+}
+
+h1 {
+    float: left;
+    font-size: 56px;
+    margin-top: 19px;
+    margin-left: 15px;
+}
+
+h1:hover {
+    text-shadow: 1px 2px 2px rgb(0, 0, 0);
+    color: black;
+}
+
+a:hover {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    color: #00c0b2;
+}
