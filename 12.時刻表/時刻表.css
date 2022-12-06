@@ -1,19 +1,27 @@
 html {
     height: 100%;
 }
-
+@font-face {
+    font-family: 'yozai';
+    src: url("../Yozai-Regular.ttf");
+}
+@font-face {
+    font-family: 'LXGW WenKai';
+    src: url("../LXGWWenKai-Regular.ttf");
+}
 body {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0%;
     font-family: yozai;  
+    background-image: url(../圖片/木頭背景圖.png);
 }
 
 .banner {
     width: 100%;
     height: 12%;
-    background-color: #fff;
+    background-color: #fffffff6;
     position: fixed;
     box-shadow:2px 2px 4px 2px #e9e9e9;
 }
@@ -126,11 +134,19 @@ a:hover {
     margin-left: 37px;
     width: 1825px;
 }
+#station{
+    width: 510px;
+    height: 110px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 700px;
+}
+
 
 #table{
     float: left;
     margin-top: 100px;
-    margin-left: 440px;
+    margin-left: 270px;
 }
 
 footer{
@@ -147,24 +163,65 @@ footer{
     margin-top: 90px;
     margin-left: 30px;  
 }
-#footertop{
+#wechat{
     float: left;
-    width: 5%;
-    margin-top: -60px;
-    margin-left: 48%;
+    margin-top: -50px;
+    margin-left: 800px;
+    width: 30px;
+    height: 30px;
 }
+#twitter{
+    float: left;
+    margin-top: -50px;
+    margin-left: 850px;
+    width: 30px;
+    height: 30px;
+}
+
+#line{
+    float: left;
+    margin-top: -50px;
+    margin-left: 900px;
+    width: 30px;
+    height: 30px;
+}
+
+#ig{
+    float: left;
+    margin-top: -50px;
+    margin-left: 950px;
+    width: 30px;
+    height: 30px;
+}
+
+#fb{
+    float: left;
+    margin-top: -50px;
+    margin-left: 1000px;
+    width: 30px;
+    height: 30px;
+}
+
 #footertrain{
     width: 64px;
     height: 80px;
     float: left;
     margin-top: -100px;
-    margin-left: 1730px;
+    margin-left: 1650px;
 }
 
-
-
-.content{
-    /* background-color: #00c0b2;
-    width: 100%;
-    height: 7487px; */
-}
+#fixedTop {
+    padding: 15px 20px;
+    background-color: #91d14e;
+    border-radius: 100%;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    /* 固定位置 */
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: none;
+    z-index: 9999;
+}  

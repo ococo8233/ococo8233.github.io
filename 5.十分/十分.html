@@ -5,8 +5,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../圖片/小火車圖標.ico">
     <title>十分站</title>
     <link rel="stylesheet" href="十分.css">
+    <script src="../5.十分/jquery-3.6.1.min.js"></script>
+    <script>
+        $(function () {
+            // 建立一個超連結在body下
+            $('body').append('<a href="javascript:void(0);" id="fixedTop">▲</a>');
+            // 把超連結的id給變數fixedTop
+            var fixedTop = $('#fixedTop');
+            // 當超連結的按鈕被左鍵一下時
+            fixedTop.on('click', function () {
+                // 捲動到最上面的位置（scrollTop:0）
+                $('html,body').animate({ scrollTop: '0' }, 1000);
+            });
+
+            var scroll = $(window).scrollTop();
+            // 產生按鈕的時機（截入、捲動、視窗大小）
+            $(window).on('load scroll resize', function () {
+                // 檢查目前捲軸捲動的高度值有沒有超100，如果有，就出現TOP按鈕
+                // 捲軸捲動的高度值預設為100
+                var showTop = 2000;
+                if ($(window).scrollTop() > showTop) {
+                    // 淡入
+                    fixedTop.fadeIn('normal');
+                } else {
+                    // 淡出
+                    fixedTop.fadeOut('normal');
+                }
+
+                var new_scroll = $(window).scrollTop();
+                const output = document.querySelector(".banner");
+
+                if (new_scroll > scroll) {
+                    $(output).fadeOut('normal');
+                } else {
+                    $(output).fadeIn('normal');
+                }
+                scroll=new_scroll;
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -34,7 +74,7 @@
                     </a>
                 </td>
                 <td>
-                    <a target="_blank" href="https://www.railway.gov.tw/tra-tip-web/tip/tip003/tip313/view10">
+                    <a href="../14.一日週遊券/一日週遊券.html">
                         <img src="../圖片/一日週遊券.png" alt="">
                     </a>
                 </td>
@@ -48,12 +88,195 @@
                 <td><a href="../10.平溪線歷史/平溪線歷史.html">平溪線歷史</a></td>
                 <td><a href="../11.美食介紹/美食介紹.html">美食介紹</a></td>
                 <td><a href="../12.時刻表/時刻表.html">時刻表</a></td>
-                <td><a target="_blank" href="https://www.railway.gov.tw/tra-tip-web/tip/tip003/tip313/view10">一日週遊券</a></td>
+                <td><a href="../14.一日週遊券/一日週遊券.html">一日週遊券</a></td>
                 <td><a href="../13.關於我們/關於我們.html">關於我們</a></td>
 
             </tr>
         </table>
         <marquee id="bluetrain" direction="right"><img src="../圖片/藍色火車.png" alt=""></marquee>
+    </div>
+
+    <div class="rail">
+        <a href="../1.瑞芳/瑞芳.html">
+            <img id="icon1" class="icon" src="../圖片/地標按鈕 沒下面的.png" alt="">
+                    <button id="btn1" class="btn">
+                        瑞芳
+                    </button>     
+        </a>
+
+        <a href="../2.猴硐/猴硐.html">
+            <img id="icon2" class="icon" src="../圖片/地標按鈕 沒下面的.png" alt="">
+            <button id="btn2" class="btn">
+                猴硐
+            </button>
+        </a>
+
+        <a href="../3.三貂嶺/三貂嶺.html">
+            <img id="icon3" class="icon" src="../圖片/地標按鈕 沒下面的.png" alt="">
+            <button id="btn3" class="btn">
+                三貂嶺
+            </button>
+        </a>
+
+        <a href="../4.大華/大華.html">
+            <img id="icon4" class="icon" src="../圖片/地標按鈕 沒下面的.png" alt="">
+            <button id="btn4" class="btn">
+                大華
+            </button>
+        </a>
+
+        <a href="../5.十分/十分.html">
+            <img id="icon5" class="icon" src="../圖片/地標按鈕 沒下面的.png" alt="">
+            <button id="btn5" class="btn">
+                十分
+            </button>
+        </a>
+
+        <a href="../6.望古/望古.html">
+            <img id="icon6" class="icon" src="../圖片/地標按鈕 沒下面的.png" alt="">
+            <button id="btn6" class="btn">
+                望古
+            </button>
+        </a>
+
+        <a href="../7.嶺腳/嶺腳.html">
+            <img id="icon7" class="icon" src="../圖片/地標按鈕 沒下面的.png" alt="">
+            <button id="btn7" class="btn">
+                嶺腳
+            </button>
+        </a>
+
+        <a href="../8.平溪/平溪.html">
+            <img id="icon8" class="icon" src="../圖片/地標按鈕 沒下面的.png" alt="">
+            <button id="btn8" class="btn">
+                平溪
+            </button>
+        </a>
+
+        <a href="../9.菁桐/菁桐.html">
+            <img id="icon9" class="icon" src="../圖片/地標按鈕 沒下面的.png" alt="">
+            <button id="btn9" class="btn">
+                菁桐
+            </button>
+        </a>
+
+    </div>
+
+    <div class="content">
+        <img id="station" src="../圖片/十分車站標示.png" alt="">
+
+        <img id="pic1" class="pic" src="./背景圖1.png" alt="">
+        <h1 id="title1">十分老街</h1>
+        <p id="text1" class="text">
+            來到十分老街可以見到鐵軌上滿滿的遊 <br>
+            客，待火車要通過前大家趕緊讓開閃到 <br>
+            一旁，形成了獨特的鐵道風光，故有不 <br>
+            少的MV及電影都在此取景拍攝。
+
+        </p>
+
+        <img id="pic2" class="pic" src="./背景圖2.png" alt="">
+        <p id="text2" class="text">
+            軌道兩旁天燈工藝店、飲食店及伴手禮店 <br>
+            林立，老街雖然不長但深受觀光客喜愛， <br>
+            尤其日韓觀光客好多，當天我們身邊的人 <br>
+            大都是說著韓語或日語，反倒讓我們有在 <br>
+            國外的錯覺！
+        </p>
+
+        <img id="pic3" class="pic" src="./背景圖3.png" alt="">
+        <p id="text3" class="text">     
+            十分老街的軌道上可以見到滿滿的放天燈人    <br>
+            潮，好多日韓觀光客來此都會體驗放天燈，一  <br>
+            個天燈就有四種顏色，分別代表著不同涵義    <br>
+            耶！四色天燈$200元、單色天燈$100元。     <br>
+            <br>
+            天燈每一面都可以寫上任何想要祈福或許願的  <br>
+            話語，寫天燈還有專用架子，相當方便～      <br>
+            更厲害的是放天燈時有免費錄影及拍照服務！   <br>
+            讓觀光客充滿回憶的感覺!                   <br>
+            <br>
+             <br>
+             <br>
+            ◎請遊客確實遵照交通警示標示通行，不要隨 <br>
+            意跨越鐵軌軌道，避免發生危險
+        <br>
+
+        <hr>
+
+        <h1 id="title2">十分瀑布</h1>
+
+
+        <img id="pic4" class="pic" src="./背景圖4.png" alt="">
+        <h1 id="title3">四廣潭橋</h1>
+        <p id="text4" class="text">
+            四廣潭吊橋，因形狀方正且廣大而得 <br>
+            名。最引人注目的是基隆河流經後， <br>
+            會有許多遊客在上面拍照，吊橋旁的 <br>
+            風景也非常漂亮。
+        </p>
+
+        <img id="pic5" class="pic" src="./背景圖5.png" alt="">
+        <h1 id="title4">壺穴景觀</h1>
+        <p id="text5" class="text">
+            沿著四廣潭橋而行，還能將四廣潭的壺穴 <br>
+            地質景觀、眼鏡洞瀑布的美景一網打盡！ <br>
+            河床上坑坑洞洞的壺穴地形，相當獨特。 
+        </p>
+
+        <img id="pic6" class="pic" src="./背景圖6.png" alt="">
+        <h1 id="title5">眼鏡蛇洞</h1>
+        <p id="text6" class="text">
+            穿越吊橋走幾步階梯，接著是眼鏡洞瀑    <br>
+            布，規模不大，但仍讓人感受到大自然巧  <br>
+            奪天工的奧妙～眼鏡洞為侵蝕型瀑布，瀑  <br>
+            布水流從兩洞之間傾瀉而下，也是氣勢磅  <br>
+            礡!
+
+        <img id="pic7" class="pic" src="./背景圖7.png" alt="">
+        <h1 id="title6">十分瀑布步道：象鼻園</h1>
+        <p id="text7" class="text">
+            接著開始往瀑布觀景台走去，首先遇上了 <br>
+            十分瀑布休息區象鼻園～獅子雕像、四面 <br>
+            佛、美食攤位、紀念品店等通通有，讓旅 <br>
+            程整體更為豐富。
+        </p>
+
+        <img id="pic8" class="pic" src="./背景圖8.png" alt="">
+        <h1 id="title7">彩虹淵</h1>
+        <p id="text8" class="text">
+            十分瀑布屬於垂簾型瀑布，瀑布兩旁的岩 <br>
+            層走向與水流相反，是地理學上的逆斜層 <br>
+            特徵，因與北美洲尼加拉瀑布景色相似， <br>
+            故有臺灣尼加拉瀑布之稱。由於瀑布下方 <br>
+            的水潭極深，在壯闊的河流沖擊下激起陣 <br>
+            陣水花，當陽光照射朦朧的水氣，可見一 <br>
+            道彩虹斜掛於瀑布或水潭上，故有「彩虹 <br>
+            淵」的美名。
+
+        </p>
+
+        <img id="pic9" class="pic" src="./背景圖9.png" alt="">
+        <h1 id="title8">多種角度賞瀑布奇觀</h1>
+        <p id="text9" class="text">
+            在十分瀑布附近設有多處的觀瀑平台，旅 <br>
+            人能以各種角度賞瀑布奇景，沿著步道而 <br>
+            行，一路觀看瀑布頂端的碧綠水潭，近距 <br>
+            離感受河流傾瀉而下的磅礡，盡情吸收負 <br>
+            離子；走到下方則能正面綜覽瀑布全景， <br>
+            是絕佳的觀瀑點，也是許多旅人選擇合照 <br>
+            留念的拍攝處。
+        </p>
+
+        <footer>
+            <p id="copyright">copyright@2022 平溪線 版權所有</p>
+            <a target="_blank" href="https://weixin.qq.com/"><img id="wechat" src="../圖片/icon wechat.png" alt=""></a> 
+            <a target="_blank" href="https://twitter.com/?lang=zh-Hant"><img id="twitter" src="../圖片/icon twitter.png" alt=""></a> 
+            <a target="_blank" href="https://linecorp.com/zh-hant/"><img id="line" src="../圖片/icon line.png" alt=""></a> 
+            <a target="_blank" href="https://www.instagram.com/"><img id="ig" src="../圖片/icon ig.png" alt=""></a> 
+            <a target="_blank" href="https://zh-tw.facebook.com/facebook/"><img id="fb" src="../圖片/icon fb.png" alt=""></a> 
+            <a href="../0.首頁/首頁.html"><img id="footertrain" src="../圖片/小火車.png" alt=""></a>
+        </footer>
     </div>
 </body>
 

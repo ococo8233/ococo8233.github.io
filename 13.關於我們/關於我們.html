@@ -4,8 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../圖片/小火車圖標.ico">
     <title>關於我們</title>
     <link rel="stylesheet" href="./關於我們.css">
+    <script src="../13.關於我們/jquery-3.6.1.min.js"></script>
+    <script>
+        $(function () {
+            // 建立一個超連結在body下
+            $('body').append('<a href="javascript:void(0);" id="fixedTop">▲</a>');
+            // 把超連結的id給變數fixedTop
+            var fixedTop = $('#fixedTop');
+            // 當超連結的按鈕被左鍵一下時
+            fixedTop.on('click', function () {
+                // 捲動到最上面的位置（scrollTop:0）
+                $('html,body').animate({ scrollTop: '0' }, 1000);
+            });
+
+            var scroll = $(window).scrollTop();
+            // 產生按鈕的時機（截入、捲動、視窗大小）
+            $(window).on('load scroll resize', function () {
+                // 檢查目前捲軸捲動的高度值有沒有超100，如果有，就出現TOP按鈕
+                // 捲軸捲動的高度值預設為100
+                var showTop = 1000;
+                if ($(window).scrollTop() > showTop) {
+                    // 淡入
+                    fixedTop.fadeIn('normal');
+                } else {
+                    // 淡出
+                    fixedTop.fadeOut('normal');
+                }
+
+                var new_scroll = $(window).scrollTop();
+                const output = document.querySelector(".banner");
+
+                if (new_scroll > scroll) {
+                    $(output).fadeOut('normal');
+                } else {
+                    $(output).fadeIn('normal');
+                }
+                scroll=new_scroll;
+            });
+        });
+    </script>
 </head>
 <body>
     <marquee id="yellowtrain" direction="right"><img src="../圖片/黃色火車.png" alt=""></marquee>
@@ -30,7 +70,7 @@
                     </a>
                 </td>
                 <td>
-                    <a target="_blank" href="https://www.railway.gov.tw/tra-tip-web/tip/tip003/tip313/view10">
+                    <a href="../14.一日週遊券/一日週遊券.html">
                         <img src="../圖片/一日週遊券.png" alt="">
                     </a>
                 </td>
@@ -44,7 +84,7 @@
                 <td><a href="../10.平溪線歷史/平溪線歷史.html">平溪線歷史</a></td>
                 <td><a href="../11.美食介紹/美食介紹.html">美食介紹</a></td>
                 <td><a href="../12.時刻表/時刻表.html">時刻表</a></td>
-                <td><a target="_blank" href="https://www.railway.gov.tw/tra-tip-web/tip/tip003/tip313/view10">一日週遊券</a></td>
+                <td><a href="../14.一日週遊券/一日週遊券.html">一日週遊券</a></td>
                 <td><a href="./關於我們.html">關於我們</a></td>
 
             </tr>
@@ -118,36 +158,65 @@
 
     </div>
 
+    
+
     <div class="content">
 
-        <img id="pic1" class="pic" src="../圖片/關於我們景點1.png" alt="">
+        <img id="station" src="../圖片/關於我們標示.png" alt="">
+        
         <p id="text1" class="text">
-            現代人因為3C產品，越來越少出門，再加上 <br>
-            前段時間因為疫情的關係大家不能出國只能 <br>
-            在國內旅遊，然而大家出去玩的地方不外乎 <br>
-            就是一些眾所周知的地方，例如澎湖高雄台 <br>
-            中台北之類的地方，但是我們希望可以提倡 <br>
-            一個更簡單便民的旅遊方式以及地點，也就 <br>
-            是班次不多也不是在大城市內，卻有著許多 <br>
-            歷史風光與人文價值、景色幽美沿途景點最 <br>
-            為豐富的鐵路支線—平溪線。
+            <br>
+            <br>
+            <br>
+            　　　　　　現代人因為3C產品，越來越少出門，再加上 <br>
+            　　　　　　前段時間因為疫情的關係大家不能出國只能 <br>
+            　　　　　　在國內旅遊，然而大家出去玩的地方不外乎 <br>
+            　　　　　　就是一些眾所周知的地方，例如澎湖高雄台 <br>
+            　　　　　　中台北之類的地方，但是我們希望可以提倡 <br>
+            　　　　　　一個更簡單便民的旅遊方式以及地點，也就 <br>
+            　　　　　　是班次不多也不是在大城市內，卻有著許多 <br>
+            　　　　　　歷史風光與人文價值、景色幽美沿途景點最 <br>
+            　　　　　　為豐富的鐵路支線—平溪線。
         </p>
-
-        <img id="pic2" class="pic" src="../圖片/關於我們景點2.png" alt="">
+        <img id="pic1" class="pic" src="../圖片/關於我們景點1.png" alt="">
+        
         <p id="text2" class="text">
-            為了讓有考慮要旅遊的人以及吸引更多 <br>
-            人走出家門，我們希望藉由我們設計的 <br>
-            網站讓更多人考慮平溪線這個選擇，觀 <br>
-            看者可以利用我們的網站做為旅遊規劃 <br>
-            的參考，並能夠做出更通順、豐富的行 <br>
-            前規劃來得到一個美好的旅遊體驗。
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            　　　　　　　　　　　　　　　為了讓有考慮要旅遊的人以及吸引更多 <br>
+            　　　　　　　　　　　　　　　人走出家門，我們希望藉由我們設計的 <br>
+            　　　　　　　　　　　　　　　網站讓更多人考慮平溪線這個選擇，觀 <br>
+            　　　　　　　　　　　　　　　看者可以利用我們的網站做為旅遊規劃 <br>
+            　　　　　　　　　　　　　　　的參考，並能夠做出更通順、豐富的行 <br>
+            　　　　　　　　　　　　　　　前規劃來得到一個美好的旅遊體驗。
+        </p>
+        <img id="pic2" class="pic" src="../圖片/關於我們景點2.png" alt="">
+
+        <p id="text3" class="text">
+            <br>
+            <br>
+            <br>
+            　　　　　除了讓更多人體驗更好的旅遊體驗之外， <br>
+            　　　　　我們更希望讓大家好好了解和親身經歷這 <br>
+            　　　　　些台灣獨有的習俗文化，必玩的平溪放天 <br>
+            　　　　　燈體驗！將心意用毛筆寫在不同顏色的天 <br>
+            　　　　　燈上，再親手將天燈送上天空，看著天燈 <br>
+            　　　　　緩緩上升的景色，有如對宇宙許下願望！ <br>
+            　　　　　滿滿的感動絕對不能錯過！
         </p>
 
         <img id="pic3" class="pic" src="../圖片/關於我們景點3.png" alt="">
 
         <footer>
             <p id="copyright">copyright@2022 平溪線 版權所有</p>
-            <img id="footertop" src="../圖片/回到最上面按鈕.png" alt="">
+            <a target="_blank" href="https://weixin.qq.com/"><img id="wechat" src="../圖片/icon wechat.png" alt=""></a> 
+            <a target="_blank" href="https://twitter.com/?lang=zh-Hant"><img id="twitter" src="../圖片/icon twitter.png" alt=""></a> 
+            <a target="_blank" href="https://linecorp.com/zh-hant/"><img id="line" src="../圖片/icon line.png" alt=""></a> 
+            <a target="_blank" href="https://www.instagram.com/"><img id="ig" src="../圖片/icon ig.png" alt=""></a> 
+            <a target="_blank" href="https://zh-tw.facebook.com/facebook/"><img id="fb" src="../圖片/icon fb.png" alt=""></a>  
             <a href="../0.首頁/首頁.html"><img id="footertrain" src="../圖片/小火車.png" alt=""></a>
         </footer>
     </div>

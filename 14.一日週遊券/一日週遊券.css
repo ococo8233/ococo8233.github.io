@@ -1,0 +1,261 @@
+html {
+    height: 100%;
+}
+@font-face {
+    font-family: 'yozai';
+    src: url("../Yozai-Regular.ttf");
+}
+@font-face {
+    font-family: 'LXGW WenKai';
+    src: url("../LXGWWenKai-Regular.ttf");
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0%;
+    font-family: yozai;  
+    background-image: url(../圖片/景點背景圖.png);
+}
+
+.banner {
+    width: 100%;
+    height: 12%;
+    /* background-color: #4089beed; */
+    background-color: #fffffff6;
+    position: fixed;
+    box-shadow:2px 2px 4px 2px #e9e9e9;
+}
+
+.nav {
+    text-align: center;
+    text-indent: 60px;
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 220px;
+
+}
+
+.nav img {
+    width: 40px;
+    height: 40px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+#train {
+    width: 64px;
+    height: 80px;
+    margin-left: 80px;
+    margin-top: 15px;
+    float: left;
+}
+
+h1 {
+    float: left;
+    font-size: 56px;
+    margin-top: 19px;
+    margin-left: 15px;
+}
+
+p{
+    font-family: LXGW WenKai;
+}
+
+#title:hover {
+    text-shadow: 1px 2px 2px rgb(0, 0, 0);
+    color: black;
+}
+
+a:hover {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    color: #00c0b2;
+}
+
+.rail{
+    background-image: url(../圖片/鐵軌背景圖\ 2.png);
+    background-repeat: no-repeat;
+    width: 96%;
+    height: 20%;
+    /* margin-top: 6.3%; */
+    margin-top: -9.3%;
+    margin-left: 2%;
+    border-radius: 20px;
+    float: left;
+    z-index: 9999;
+}
+.btn:hover {
+    transform: scale(1.2);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    background-color: #004b54;
+    color: #fff;
+    border: 3px solid #fff;
+}
+.icon {
+    float: left;
+    width: 65px;
+    height: 65px;
+    margin-top: 75px;
+    margin-left: 6%;
+}
+
+.btn {
+    float: left;
+    width: 90px;
+    height: 45px;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 35px;
+    font-family: yozai;
+    border: 3px solid #333;
+    margin-top: 15px;
+    margin-left: -80px;
+}
+#icon1 {
+    margin-left: 140px;
+}
+
+#bluetrain{
+    position: fixed;
+    margin-top: 55px;
+    margin-left: 15px;
+    width: 630px;
+
+}
+
+#yellowtrain{
+    float: left;
+    margin-top: 265px;
+    margin-left: 37px;
+    width: 1825px;
+}
+
+#station{
+    width: 610px;
+    height: 110px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 650px;
+}
+
+#ticket{
+    width: 1000px;
+    height: 570px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 465px;
+    
+}
+
+#buy{
+    float: left;
+    margin-top: 400px;
+    margin-left: -185px;
+    width: 160px;
+    height: 45px;
+    border-radius: 5px;
+    /* background-color: #015fac3c; */
+    background: linear-gradient(#fff ,#015fac39 20% ,#015fac6c );
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+    border: 0.5px  solid #fff;
+    cursor: pointer;
+    box-shadow:1px 1px 1px 1px #e9e9e9;
+}
+
+#buy:hover {
+    background: linear-gradient(#fff ,#015fac84 40% ,#015fac9b );
+}
+#buy:active{
+    background: linear-gradient(rgba(108, 108, 108, 0.341) ,#015fac40 10%,#015fac84 40% ,#015fac9b );
+    border-right:2px  solid #fff;
+    border-bottom:2px  solid #fff;
+    border-top: 2px solid rgba(86, 86, 86, 0.487);
+    border-left: 2px solid rgba(86, 86, 86, 0.532);
+}
+
+
+footer{
+    background-image: url(../圖片/頁尾背景圖.png);
+    background-repeat: no-repeat;
+    width: 96%;
+    height: 170px;
+    margin-top: 100px;
+    margin-bottom: -500px;
+    margin-left: 2%;
+    float: left;
+}
+#copyright{
+    margin-top: 90px;
+    margin-left: 30px;  
+}
+#wechat{
+    float: left;
+    margin-top: -50px;
+    margin-left: 800px;
+    width: 30px;
+    height: 30px;
+}
+#twitter{
+    float: left;
+    margin-top: -50px;
+    margin-left: 850px;
+    width: 30px;
+    height: 30px;
+}
+
+#line{
+    float: left;
+    margin-top: -50px;
+    margin-left: 900px;
+    width: 30px;
+    height: 30px;
+}
+
+#ig{
+    float: left;
+    margin-top: -50px;
+    margin-left: 950px;
+    width: 30px;
+    height: 30px;
+}
+
+#fb{
+    float: left;
+    margin-top: -50px;
+    margin-left: 1000px;
+    width: 30px;
+    height: 30px;
+}
+
+#footertrain{
+    width: 64px;
+    height: 80px;
+    float: left;
+    margin-top: -100px;
+    margin-left: 1650px;
+}
+
+#fixedTop {
+    padding: 15px 20px;
+    background-color: #91d14e;
+    border-radius: 100%;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    /* 固定位置 */
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: none;
+    z-index: 9999;
+}  
+

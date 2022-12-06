@@ -1,19 +1,27 @@
 html {
     height: 100%;
 }
-
+@font-face {
+    font-family: 'yozai';
+    src: url("../Yozai-Regular.ttf");
+}
+@font-face {
+    font-family: 'LXGW WenKai';
+    src: url("../LXGWWenKai-Regular.ttf");
+}
 body {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0%;
-    font-family: yozai;  
+    font-family: yozai;   
+    background-image: url(../圖片/美食介紹背景圖.png);
 }
 
 .banner {
     width: 100%;
     height: 12%;
-    background-color: #fff;
+    background-color: #fffffff6;
     position: absolute;
     position: fixed;
     box-shadow:2px 2px 4px 2px #e9e9e9;
@@ -128,6 +136,13 @@ a:hover {
     margin-left: 37px;
     width: 1825px;
 }
+#mark{
+    width: 557px;
+    height: 110px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 670px;
+}
 
 
 footer{
@@ -202,7 +217,7 @@ footer{
 }
 .foodpic{
     margin-top: 10px;
-    margin-left: 94px;
+    margin-left: 90px;
     float: left;
 }
 .foodpic a{
@@ -220,11 +235,13 @@ footer{
 }
 .content{
     background-color: #c2e9fa;
-    border: 2px solid #333;
+    /* border: 2px solid #333; */
+    border-radius: 20px;
     margin-top: 100px;
     float: left;
     width: 370px;
     height: 730px;
+    margin-left: 130px;
 }
 .name{
     background-color: #015aec;
@@ -240,76 +257,267 @@ footer{
     margin-top: 3px;
     float: left;
 }
-#foodpic1 a{
-    margin-left: 10px;
+#foodpic1{
+    margin-left: 105px;
 }
-#foodpic2 a{
-    margin-left: 10px;
+#foodpic4{
+    margin-left: 73px;
 }
-#foodpic3 a{
-    margin-left: 10px;
+#foodpic5{
+    margin-left: 73px;
 }
-#foodpic4 a{
-    margin-left: 10px;
+#foodpic7{
+    margin-left: 73px;
 }
-#foodpic5 a{
-    margin-left: 10px;
+#foodpic10{
+    margin-left: 73px;
 }
-#foodpic6 a{
-    margin-left: 10px;
+#foodpic11{
+    margin-left: 122px;
 }
+#foodpic12{
+    margin-left: 105px;
+}
+#foodpic13{
+    margin-left: 122px;
+}
+#foodpic14{
+    margin-left: 73px;
+}
+#foodpic15{
+    margin-left: 73px;
+}
+#foodpic16{
+    margin-left: 73px;
+}
+#foodpic17{
+    margin-left: 122px;
+}
+#foodpic20{
+    margin-left: 73px;
+}
+#foodpic21{
+    margin-left: 73px;
+}
+#foodpic22{
+    margin-left: 105px;
+}
+
+
 #content1{  
     margin-left: 260px;
-}
-#content2{
-    margin-left: 130px;
-}
-#content3{
-    margin-left: 130px;
 }
 #content4{  
     margin-left: 260px;
 }
-#content5{
-    margin-left: 130px;
+#content7{
+    margin-left: 260px;
 }
-#content6{
-    margin-left: 130px;
+#content10{
+    margin-left: 766px;
 }
-#name1{
-    margin-top: -420px;
+#content11{
+    margin-left: 260px;
 }
+#content14{
+    margin-left: 766px;
+}
+#content15{
+    margin-left: 260px;
+}
+#content18{
+    margin-left: 260px;
+}
+#content21{
+    margin-left: 260px;
+}
+
 #name2{
     margin-top: -450px; 
 }
-#name3{
-    margin-top: -420px;
-}
 #name4{
-    margin-top: -420px;
+    margin-top: -390px; 
 }
 #name5{
+    margin-top: -390px; 
+}
+#name8{
+    margin-top: -390px; 
+}
+#name9{
+    margin-top: -390px; 
+}
+#name10{
+    margin-top: -450px; 
+}
+#name12{
+    margin-top: -450px; 
+}
+#name13{
+    margin-top: -390px; 
+}
+#name14{
+    margin-top: -450px; 
+}
+#name15{
+    margin-top: -450px; 
+}
+#name17{
+    margin-top: -450px; 
+}
+#name19{
+    margin-top: -450px; 
+}
+#name21{
     margin-top: -420px; 
 }
-#name6{
-    margin-top: -420px;
-}
+
+
+
 #nametext1{
-    margin-left: 110px; 
+    margin-left: 105px; 
 }
 #nametext2{
-    margin-left: 127px;  
+    margin-left: 122px;  
 }
 #nametext3{
-    margin-left: 127px;
+    margin-left: 122px;
 }
 #nametext4{
-    margin-left: 110px; 
+    margin-left: 120px; 
 }
 #nametext5{
-    margin-left: 127px;  
+    margin-left: 70px;  
 }
 #nametext6{
+    margin-left: 42px;
+}
+#nametext7{
+    margin-left: 103px;
+}
+#nametext8{
+    margin-left: 120px;
+}
+#nametext9{
+    margin-left: 108px;
+}
+#nametext10{
+    margin-left: 65px;
+}
+#nametext11{
+    margin-left: 135px;
+}
+#nametext12{
+    margin-left: 20px;
+}
+#nametext13{
+    margin-left: 78px;
+}
+#nametext14{
+    margin-left: 50px;
+}
+#nametext15{
+    margin-left: 120px;
+}
+#nametext16{
+    margin-left: 155px;
+}
+#nametext17{
+    margin-left: 60px;
+}
+#nametext18{
+    margin-left: 120px;
+}
+#nametext19{
+    margin-left: 73px;
+}
+#nametext20{
+    margin-left: 75px;
+}
+#nametext21{
+    margin-left: 125px;
+}
+#nametext22{
+    margin-left: 95px;
+}
+#nametext23{
     margin-left: 127px;
 }
 
+
+footer{
+    background-image: url(../圖片/頁尾背景圖.png);
+    background-repeat: no-repeat;
+    width: 96%;
+    height: 170px;
+    margin-top: 100px;
+    margin-bottom: -500px;
+    margin-left: 2%;
+    float: left;
+}
+#copyright{
+    margin-top: 90px;
+    margin-left: 30px;  
+}
+#wechat{
+    float: left;
+    margin-top: -50px;
+    margin-left: 800px;
+    width: 30px;
+    height: 30px;
+}
+#twitter{
+    float: left;
+    margin-top: -50px;
+    margin-left: 850px;
+    width: 30px;
+    height: 30px;
+}
+
+#line{
+    float: left;
+    margin-top: -50px;
+    margin-left: 900px;
+    width: 30px;
+    height: 30px;
+}
+
+#ig{
+    float: left;
+    margin-top: -50px;
+    margin-left: 950px;
+    width: 30px;
+    height: 30px;
+}
+
+#fb{
+    float: left;
+    margin-top: -50px;
+    margin-left: 1000px;
+    width: 30px;
+    height: 30px;
+}
+
+#footertrain{
+    width: 64px;
+    height: 80px;
+    float: left;
+    margin-top: -100px;
+    margin-left: 1650px;
+}
+
+#fixedTop {
+    padding: 15px 20px;
+    background-color: #91d14e;
+    border-radius: 100%;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    /* 固定位置 */
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: none;
+    z-index: 9999;
+}  

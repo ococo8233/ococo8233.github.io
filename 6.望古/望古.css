@@ -1,7 +1,14 @@
 html {
     height: 100%;
 }
-
+@font-face {
+    font-family: 'yozai';
+    src: url("../Yozai-Regular.ttf");
+}
+@font-face {
+    font-family: 'LXGW WenKai';
+    src: url("../LXGWWenKai-Regular.ttf");
+}
 body {
     width: 100%;
     height: 100%;
@@ -9,12 +16,14 @@ body {
     padding: 0%;
     font-family: yozai;
     background-color: #fafae0;
+    background-image: url(../圖片/景點背景圖.png);
 }
 
 .banner {
     width: 100%;
     height: 10%;
     position: fixed;
+    background-color: #fffffff6;
 }
 
 .nav {

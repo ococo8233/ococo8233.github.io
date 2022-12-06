@@ -5,8 +5,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../圖片/小火車圖標.ico">
     <title>大華站</title>
     <link rel="stylesheet" href="大華.css">
+    <script src="../4.大華/jquery-3.6.1.min.js"></script>
+    <script>
+        $(function () {
+            // 建立一個超連結在body下
+            $('body').append('<a href="javascript:void(0);" id="fixedTop">▲</a>');
+            // 把超連結的id給變數fixedTop
+            var fixedTop = $('#fixedTop');
+            // 當超連結的按鈕被左鍵一下時
+            fixedTop.on('click', function () {
+                // 捲動到最上面的位置（scrollTop:0）
+                $('html,body').animate({ scrollTop: '0' }, 1000);
+            });
+
+            var scroll = $(window).scrollTop();
+            // 產生按鈕的時機（截入、捲動、視窗大小）
+            $(window).on('load scroll resize', function () {
+                // 檢查目前捲軸捲動的高度值有沒有超100，如果有，就出現TOP按鈕
+                // 捲軸捲動的高度值預設為100
+                var showTop = 2000;
+                if ($(window).scrollTop() > showTop) {
+                    // 淡入
+                    fixedTop.fadeIn('normal');
+                } else {
+                    // 淡出
+                    fixedTop.fadeOut('normal');
+                }
+
+                var new_scroll = $(window).scrollTop();
+                const output = document.querySelector(".banner");
+
+                if (new_scroll > scroll) {
+                    $(output).fadeOut('normal');
+                } else {
+                    $(output).fadeIn('normal');
+                }
+                scroll=new_scroll;
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -34,7 +74,7 @@
                     </a>
                 </td>
                 <td>
-                    <a target="_blank" href="https://www.railway.gov.tw/tra-tip-web/tip/tip003/tip313/view10">
+                    <a href="../14.一日週遊券/一日週遊券.html">
                         <img src="../圖片/一日週遊券.png" alt="">
                     </a>
                 </td>
@@ -48,7 +88,7 @@
                 <td><a href="../10.平溪線歷史/平溪線歷史.html">平溪線歷史</a></td>
                 <td><a href="../11.美食介紹/美食介紹.html">美食介紹</a></td>
                 <td><a href="../12.時刻表/時刻表.html">時刻表</a></td>
-                <td><a target="_blank" href="https://www.railway.gov.tw/tra-tip-web/tip/tip003/tip313/view10">一日週遊券</a></td>
+                <td><a href="../14.一日週遊券/一日週遊券.html">一日週遊券</a></td>
                 <td><a href="../13.關於我們/關於我們.html">關於我們</a></td>
 
             </tr>
@@ -180,7 +220,11 @@
 
         <footer>
             <p id="copyright">copyright@2022 平溪線 版權所有</p>
-            <img id="footertop" src="../圖片/回到最上面按鈕.png" alt="">
+            <a target="_blank" href="https://weixin.qq.com/"><img id="wechat" src="../圖片/icon wechat.png" alt=""></a> 
+            <a target="_blank" href="https://twitter.com/?lang=zh-Hant"><img id="twitter" src="../圖片/icon twitter.png" alt=""></a> 
+            <a target="_blank" href="https://linecorp.com/zh-hant/"><img id="line" src="../圖片/icon line.png" alt=""></a> 
+            <a target="_blank" href="https://www.instagram.com/"><img id="ig" src="../圖片/icon ig.png" alt=""></a> 
+            <a target="_blank" href="https://zh-tw.facebook.com/facebook/"><img id="fb" src="../圖片/icon fb.png" alt=""></a> 
             <a href="../0.首頁/首頁.html"><img id="footertrain" src="../圖片/小火車.png" alt=""></a>
         </footer>
     </div>
