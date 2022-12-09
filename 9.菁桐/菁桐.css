@@ -319,6 +319,179 @@ hr {
     margin-left: 200px;
 }
 
+#card{
+    float: left;
+    color: #fff;
+    margin-top: -33%;
+    margin-left: 45%;
+    font-size: 3rem;
+}
+
+#activity {
+    width: 100%;
+    margin-top: 9%;
+    float: left;
+}
+
+#h21 {
+    background-color: #fff;
+    height: 70px;
+    margin-top: -5px;
+}
+
+.card-filp1 {
+    float: left;
+    /* border: 3px solid red; */
+    height: 370px;
+    width: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 2s;
+    margin-left: 15%;
+    margin-top: -500px;
+}
+
+.front1,
+.back1 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    backface-visibility: hidden;
+}
+
+.back1 {
+    transform: rotateY(180deg);
+}
+
+.card-filp1:hover {
+    transform: rotateY(180deg);
+}
+#act1{
+    border-radius: 20px 20px 0px 0px;
+}
+#p1{
+    border-radius: 20px;
+    font-size: 1.25rem;
+    margin-top: 0%;
+    background-color: #fafae0;
+    height: 370px;
+}
+
+h3{
+    background-color: #783f03;
+    color: #fff;
+    height: 50px;
+    margin-top: -20px;
+    line-height: 50px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+#h22 {
+    background-color: #fff;
+    height: 70px;
+    margin-top: -5px;
+    line-height: 70px;
+}
+
+.card-filp2 {
+    float: left;
+    /* border: 3px solid red; */
+    height: 370px;
+    width: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 2s;
+    margin-left: 40%;
+    margin-top: -500px;
+}
+
+.front2{
+    border-radius: 20px;
+}
+
+.front2,
+.back2 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    backface-visibility: hidden;
+}
+
+.back2 {
+    transform: rotateY(180deg);
+}
+
+.card-filp2:hover {
+    transform: rotateY(180deg);
+}
+#act2{
+    border-radius: 20px 20px 0px 0px;
+}
+#p2{
+    border-radius: 20px;
+    font-size: 1.25rem;
+    margin-top: 0%;
+    background-color: #fafae0;
+    height: 370px;
+    line-height: 30px;
+}
+
+#h23 {
+    background-color: #fff;
+    height: 70px;
+    margin-top: -5px;
+}
+
+.card-filp3 {
+    float: left;
+    /* border: 3px solid red; */
+    height: 370px;
+    width: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 2s;
+    margin-left: 65%;
+    margin-top: -500px;
+}
+
+.front3{
+    border-radius: 20px;
+}
+
+.front3,
+.back3 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    backface-visibility: hidden;
+}
+
+.back3 {
+    transform: rotateY(180deg);
+}
+
+.card-filp3:hover {
+    transform: rotateY(180deg);
+}
+#act3{
+    border-radius: 20px 20px 0px 0px;
+}
+#p3{
+    border-radius: 20px;
+    font-size: 1.25rem;
+    margin-top: 0%;
+    background-color: #fafae0;
+    height: 370px;
+    line-height: 30px;
+}
+
+
 footer {
     background-image: url(../圖片/頁尾背景圖.png);
     background-repeat: no-repeat;
@@ -551,8 +724,8 @@ footer {
     #yellowtrain {
         float: left;
         margin-top: 255px;
-        margin-left: 37px;
-        width: 1825px;
+        margin-left: 22px;
+        width: 940px;
     }
 
     #station {
@@ -763,6 +936,181 @@ footer {
         margin-left: 70px;
 
     }
+
+    #card{
+        float: left;
+        color: #fff;
+        margin-top: -100%;
+        margin-left: 40%;
+        font-size: 3rem;
+    }
+    
+    #activity {
+        background-image: url(../活動/中尺寸背景圖.png);
+        width: 100%;
+        height: 1000px;
+        margin-top: 9%;
+        float: left;
+    }
+    
+    #h21 {
+        background-color: #fff;
+        height: 70px;
+        margin-top: -5px;
+    }
+    
+    .card-filp1 {
+        float: left;
+        /* border: 3px solid red; */
+        height: 370px;
+        width: 400px;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: 2s;
+        margin-left: 5%;
+        margin-top: -85%;
+    }
+    
+    .front1,
+    .back1 {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        backface-visibility: hidden;
+    }
+    
+    .back1 {
+        transform: rotateY(180deg);
+    }
+    
+    .card-filp1:hover {
+        transform: rotateY(180deg);
+    }
+    #act1{
+        border-radius: 20px 20px 0px 0px;
+    }
+    #p1{
+        border-radius: 20px;
+        font-size: 1.25rem;
+        margin-top: 0%;
+        background-color: #fafae0;
+        height: 370px;
+    }
+    
+    h3{
+        background-color: #783f03;
+        color: #fff;
+        height: 50px;
+        margin-top: -20px;
+        line-height: 50px;
+        border-radius: 0px 0px 20px 20px;
+    }
+    
+    #h22 {
+        background-color: #fff;
+        height: 70px;
+        margin-top: -5px;
+        line-height: 70px;
+    }
+    
+    .card-filp2 {
+        float: left;
+        /* border: 3px solid red; */
+        height: 370px;
+        width: 400px;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: 2s;
+        margin-left: 52%;
+        margin-top: -85%;
+    }
+    
+    .front2{
+        border-radius: 20px;
+    }
+    
+    .front2,
+    .back2 {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        backface-visibility: hidden;
+    }
+    
+    .back2 {
+        transform: rotateY(180deg);
+    }
+    
+    .card-filp2:hover {
+        transform: rotateY(180deg);
+    }
+    #act2{
+        border-radius: 20px 20px 0px 0px;
+    }
+    #p2{
+        border-radius: 20px;
+        font-size: 1.25rem;
+        margin-top: 0%;
+        background-color: #fafae0;
+        height: 370px;
+        line-height: 30px;
+    }
+    
+    #h23 {
+        background-color: #fff;
+        height: 70px;
+        margin-top: -5px;
+    }
+    
+    .card-filp3 {
+        float: left;
+        /* border: 3px solid red; */
+        height: 370px;
+        width: 400px;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: 2s;
+        margin-left: 30%;
+        margin-top: -43%;
+    }
+    
+    .front3{
+        border-radius: 20px;
+    }
+    
+    .front3,
+    .back3 {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        backface-visibility: hidden;
+    }
+    
+    .back3 {
+        transform: rotateY(180deg);
+    }
+    
+    .card-filp3:hover {
+        transform: rotateY(180deg);
+    }
+    #act3{
+        border-radius: 20px 20px 0px 0px;
+    }
+    #p3{
+        border-radius: 20px;
+        font-size: 1.25rem;
+        margin-top: 0%;
+        background-color: #fafae0;
+        height: 370px;
+        line-height: 30px;
+    }
+
     footer {
         background-image: url(../圖片/頁尾背景圖.png);
         background-repeat: no-repeat;
@@ -1234,6 +1582,177 @@ footer {
         margin-top: -230px;
         margin-left: 80px;
     }
+
+    #card{
+        float: left;
+        color: #fff;
+        margin-top: -280%;
+        margin-left: 30%;
+        font-size: 3rem;
+    }
+    
+    #activity {
+        background-image: url(../活動/中尺寸背景圖.png);
+        width: 100%;
+        height: 1400px;
+        margin-top: 9%;
+        float: left;
+    }
+    
+    #h21 {
+        background-color: #fff;
+        height: 70px;
+        margin-top: -5px;
+    }
+    
+    .card-filp1 {
+        float: left;
+        /* border: 3px solid red; */
+        height: 370px;
+        width: 400px;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: 2s;
+        margin-left: 8%;
+        margin-top: -260%;
+    }
+    
+    .front1,
+    .back1 {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        backface-visibility: hidden;
+    }
+    
+    .back1 {
+        transform: rotateY(180deg);
+    }
+    
+    .card-filp1:hover {
+        transform: rotateY(180deg);
+    }
+    #act1{
+        border-radius: 20px 20px 0px 0px;
+    }
+    #p1{
+        border-radius: 20px;
+        font-size: 1.25rem;
+        margin-top: 0%;
+        background-color: #fafae0;
+        height: 370px;
+        line-height: 40px;
+    }
+    
+    h3{
+        background-color: #783f03;
+        color: #fff;
+        height: 50px;
+        margin-top: -20px;
+        line-height: 50px;
+        border-radius: 0px 0px 20px 20px;
+    }
+    
+    #h22 {
+        background-color: #fff;
+        height: 70px;
+        margin-top: -5px;
+    }
+    
+    .card-filp2 {
+        float: left;
+        /* border: 3px solid red; */
+        height: 370px;
+        width: 400px;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: 2s;
+        margin-left: 8%;
+        margin-top: -175%;
+    }
+    
+    .front2,
+    .back2 {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        backface-visibility: hidden;
+    }
+    
+    .back2 {
+        transform: rotateY(180deg);
+    }
+    
+    .card-filp2:hover {
+        transform: rotateY(180deg);
+    }
+    #act2{
+        border-radius: 20px 20px 0px 0px;
+    }
+    #p2{
+        border-radius: 20px;
+        font-size: 1.25rem;
+        margin-top: 0%;
+        background-color: #fafae0;
+        height: 370px;
+        line-height: 40px;
+    }
+    
+    #h23 {
+        background-color: #fff;
+        height: 70px;
+        margin-top: -5px;
+    }
+    
+    .card-filp3 {
+        float: left;
+        /* border: 3px solid red; */
+        height: 370px;
+        width: 400px;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: 2s;
+        margin-left: 8%;
+        margin-top: -90%;
+    }
+    
+    .front3{
+        border-radius: 20px;
+    }
+    
+    .front3,
+    .back3 {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        backface-visibility: hidden;
+    }
+    
+    .back3 {
+        transform: rotateY(180deg);
+    }
+    
+    .card-filp3:hover {
+        transform: rotateY(180deg);
+    }
+    #act3{
+        border-radius: 20px 20px 0px 0px;
+    }
+    #p3{
+        border-radius: 20px;
+        font-size: 1.25rem;
+        margin-top: 0%;
+        background-color: #fafae0;
+        height: 370px;
+        line-height: 30px;
+    }
+
     footer {
         background-image: url(../圖片/頁尾背景圖.png);
         background-repeat: no-repeat;
@@ -1314,4 +1833,6 @@ footer {
         display: none;
         z-index: 9999;
     }
+
+    
 }

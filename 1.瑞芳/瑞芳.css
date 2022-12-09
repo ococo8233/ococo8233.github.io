@@ -1,20 +1,23 @@
 html {
     height: 100%;
 }
+
 @font-face {
     font-family: 'yozai';
     src: url("../Yozai-Regular.ttf");
 }
+
 @font-face {
     font-family: 'LXGW WenKai';
     src: url("../LXGWWenKai-Regular.ttf");
 }
+
 body {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0%;
-    font-family: yozai;  
+    font-family: yozai;
     background-image: url(../圖片/景點背景圖.png);
 }
 
@@ -24,7 +27,7 @@ body {
     /* background-color: #4089beed; */
     background-color: #fffffff6;
     position: fixed;
-    box-shadow:2px 2px 4px 2px #e9e9e9;
+    box-shadow: 2px 2px 4px 2px #e9e9e9;
 }
 
 .nav {
@@ -64,7 +67,7 @@ h1 {
     margin-left: 15px;
 }
 
-p{
+p {
     font-family: LXGW WenKai;
 }
 
@@ -78,7 +81,7 @@ a:hover {
     color: #00c0b2;
 }
 
-.rail{
+.rail {
     background-image: url(../圖片/鐵軌背景圖\ 2.png);
     background-repeat: no-repeat;
     width: 96%;
@@ -90,6 +93,7 @@ a:hover {
     float: left;
     z-index: 9999;
 }
+
 .btn:hover {
     transform: scale(1.2);
     text-shadow: 1px 1px 2px rgb(255, 255, 255);
@@ -97,6 +101,7 @@ a:hover {
     color: #fff;
     border: 3px solid #fff;
 }
+
 .icon {
     float: left;
     width: 65px;
@@ -117,11 +122,12 @@ a:hover {
     margin-top: 15px;
     margin-left: -80px;
 }
+
 #icon1 {
     margin-left: 140px;
 }
 
-#bluetrain{
+#bluetrain {
     position: fixed;
     margin-top: 55px;
     margin-left: 15px;
@@ -129,128 +135,147 @@ a:hover {
 
 }
 
-#yellowtrain{
+#yellowtrain {
     float: left;
     margin-top: 265px;
     margin-left: 37px;
     width: 1825px;
 }
 
-#station{
+#station {
     width: 262px;
     height: 150px;
     float: left;
     margin-top: 50px;
     margin-left: 820px;
-    
+
 }
-.pic{
+
+.pic {
     float: left;
 }
 
-.content h1{
+.content h1 {
     float: left;
     font-size: 2.5rem;
 }
 
-.text{
+.text {
     float: left;
     font-size: 1.5rem;
     line-height: 40px;
 }
 
-#pic1-1{
+#pic1-1 {
     margin-top: 100px;
     margin-left: 0px;
 }
+
 /* #pic1-2{
     margin-top: 250px;
     margin-left: -480px;
 } */
-#pic2-1{
+#pic2-1 {
     margin-top: 180px;
     margin-left: 152px;
 }
+
 /* #pic2-2{
     margin-top: -500px;
     margin-left: 1300px;
 } */
-#pic3{
+#pic3 {
     margin-top: 180px;
     margin-left: 0px;
 }
-#pic4{
+
+#pic4 {
     margin-top: 180px;
     margin-left: 50px;
 }
-#pic5{
+
+#pic5 {
     margin-top: 100px;
     margin-left: 152px;
 }
-#pic6{
+
+#pic6 {
     margin-top: 180px;
     margin-left: 0px;
 }
-#pic7{
+
+#pic7 {
     margin-top: 180px;
     margin-left: 152px;
 }
 
-#pic8{
+#pic8 {
     margin-top: 180px;
     margin-left: 0px;
 }
-#pic9{
+
+#pic9 {
     margin-top: 180px;
     margin-left: 152px;
 }
-#pic10{
+
+#pic10 {
     margin-top: 180px;
     margin-left: 0px;
 }
-#text1{
+
+#text1 {
     margin-top: -400px;
     margin-left: 1150px;
- 
+
 }
-#text2{
+
+#text2 {
     margin-top: -400px;
     margin-left: 300px;
 }
-#text3{
+
+#text3 {
     margin-top: -440px;
     margin-left: 580px;
 }
-#text4{
+
+#text4 {
     margin-top: -440px;
     margin-left: 1420px;
 }
-#text5{
+
+#text5 {
     margin-top: -360px;
     margin-left: 425px;
 }
-#text6{
+
+#text6 {
     margin-top: -380px;
     margin-left: 1060px;
 }
-#text7{
+
+#text7 {
     margin-top: -390px;
     margin-left: 480px;
 }
-#text8{
+
+#text8 {
     margin-top: -400px;
     margin-left: 875px;
 }
-#text9{
+
+#text9 {
     margin-top: -410px;
     margin-left: 280px;
 }
-#text10{
+
+#text10 {
     margin-top: -375px;
     margin-left: 1170px;
 }
 
-#title1{
+#title1 {
     margin-top: 300px;
     margin-left: -335px;
     color: #015eac;
@@ -260,9 +285,10 @@ a:hover {
     width: 400px;
     text-align: center;
     line-height: 100px;
-    
+
 }
-#title2{
+
+#title2 {
     margin-top: -550px;
     margin-left: 570px;
     color: #783f03;
@@ -274,20 +300,21 @@ a:hover {
     line-height: 80px;
     font-weight: 400;
 }
-#title3{
+
+#title3 {
     margin-top: -555px;
     margin-left: 1350px;
     color: #783f03;
     background-color: #c2e9fa;
     border-left: 30px solid #17a300;
-    height:80px;
+    height: 80px;
     width: 300px;
     text-align: center;
     line-height: 80px;
     font-weight: 400;
 }
 
-#title4{
+#title4 {
     margin-top: 180px;
     margin-left: 735px;
     color: #015eac;
@@ -298,63 +325,66 @@ a:hover {
     text-align: center;
     line-height: 100px;
 }
-#title5{
+
+#title5 {
     margin-top: -480px;
     margin-left: 500px;
     color: #783f03;
     background-color: #c2e9fa;
     border-left: 30px solid #17a300;
-    height:80px;
+    height: 80px;
     width: 200px;
     text-align: center;
     line-height: 80px;
     font-weight: 400;
 }
 
-#title6{
+#title6 {
     margin-top: -500px;
     margin-left: 570px;
     color: #783f03;
     background-color: #c2e9fa;
     border-left: 30px solid #17a300;
-    height:80px;
+    height: 80px;
     width: 250px;
     text-align: center;
     line-height: 80px;
     font-weight: 400;
 }
 
-#title7{
+#title7 {
     margin-top: -510px;
     margin-left: 1030px;
     color: #783f03;
     background-color: #c2e9fa;
     border-left: 30px solid #17a300;
-    height:80px;
+    height: 80px;
     width: 300px;
     text-align: center;
     line-height: 80px;
     font-weight: 400;
 }
-#title8{
+
+#title8 {
     margin-top: -520px;
     margin-left: 400px;
     color: #783f03;
     background-color: #c2e9fa;
     border-left: 30px solid #17a300;
-    height:80px;
+    height: 80px;
     width: 300px;
     text-align: center;
     line-height: 80px;
     font-weight: 400;
 }
-#title9{
+
+#title9 {
     margin-top: -490px;
     margin-left: 1240px;
     color: #783f03;
     background-color: #c2e9fa;
     border-left: 30px solid #17a300;
-    height:80px;
+    height: 80px;
     width: 200px;
     text-align: center;
     line-height: 80px;
@@ -362,14 +392,191 @@ a:hover {
 }
 
 
-hr{
+hr {
     width: 80%;
     float: left;
     margin-top: 180px;
     margin-left: 200px;
 }
 
-footer{
+#card{
+    float: left;
+    color: #fff;
+    margin-top: -33%;
+    margin-left: 45%;
+    font-size: 3rem;
+}
+
+#activity {
+    width: 100%;
+    margin-top: 9%;
+    float: left;
+}
+
+#h21 {
+    background-color: #fff;
+    height: 70px;
+    margin-top: -5px;
+}
+
+.card-filp1 {
+    float: left;
+    /* border: 3px solid red; */
+    height: 370px;
+    width: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 2s;
+    margin-left: 15%;
+    margin-top: -500px;
+}
+
+.front1{
+    border-radius: 20px;
+}
+
+.front1,
+.back1 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    backface-visibility: hidden;
+}
+
+.back1 {
+    transform: rotateY(180deg);
+}
+
+.card-filp1:hover {
+    transform: rotateY(180deg);
+}
+#act1{
+    border-radius: 20px 20px 0px 0px;
+}
+#p1{
+    border-radius: 20px;
+    font-size: 1.25rem;
+    margin-top: 0%;
+    background-color: #fafae0;
+    height: 370px;
+}
+
+h3{
+    background-color: #783f03;
+    color: #fff;
+    height: 50px;
+    margin-top: -20px;
+    line-height: 50px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+#h22 {
+    background-color: #fff;
+    height: 70px;
+    margin-top: -5px;
+    line-height: 70px;
+}
+
+.card-filp2 {
+    float: left;
+    /* border: 3px solid red; */
+    height: 370px;
+    width: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 2s;
+    margin-left: 40%;
+    margin-top: -500px;
+}
+
+.front2{
+    border-radius: 20px;
+}
+
+.front2,
+.back2 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    backface-visibility: hidden;
+}
+
+.back2 {
+    transform: rotateY(180deg);
+}
+
+.card-filp2:hover {
+    transform: rotateY(180deg);
+}
+#act2{
+    border-radius: 20px 20px 0px 0px;
+}
+#p2{
+    border-radius: 20px;
+    font-size: 1.25rem;
+    margin-top: 0%;
+    background-color: #fafae0;
+    height: 370px;
+    line-height: 30px;
+}
+
+#h23 {
+    background-color: #fff;
+    height: 70px;
+    margin-top: -5px;
+}
+
+.card-filp3 {
+    float: left;
+    /* border: 3px solid red; */
+    height: 370px;
+    width: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 2s;
+    margin-left: 65%;
+    margin-top: -500px;
+}
+
+.front3{
+    border-radius: 20px;
+}
+
+.front3,
+.back3 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    backface-visibility: hidden;
+}
+
+.back3 {
+    transform: rotateY(180deg);
+}
+
+.card-filp3:hover {
+    transform: rotateY(180deg);
+}
+#act3{
+    border-radius: 20px 20px 0px 0px;
+}
+#p3{
+    border-radius: 20px;
+    font-size: 1.25rem;
+    margin-top: 0%;
+    background-color: #fafae0;
+    height: 370px;
+    line-height: 30px;
+}
+
+
+footer {
     background-image: url(../圖片/頁尾背景圖.png);
     background-repeat: no-repeat;
     width: 96%;
@@ -379,18 +586,21 @@ footer{
     margin-left: 2%;
     float: left;
 }
-#copyright{
+
+#copyright {
     margin-top: 90px;
-    margin-left: 30px;  
+    margin-left: 30px;
 }
-#wechat{
+
+#wechat {
     float: left;
     margin-top: -50px;
     margin-left: 800px;
     width: 30px;
     height: 30px;
 }
-#twitter{
+
+#twitter {
     float: left;
     margin-top: -50px;
     margin-left: 850px;
@@ -398,7 +608,7 @@ footer{
     height: 30px;
 }
 
-#line{
+#line {
     float: left;
     margin-top: -50px;
     margin-left: 900px;
@@ -406,7 +616,7 @@ footer{
     height: 30px;
 }
 
-#ig{
+#ig {
     float: left;
     margin-top: -50px;
     margin-left: 950px;
@@ -414,7 +624,7 @@ footer{
     height: 30px;
 }
 
-#fb{
+#fb {
     float: left;
     margin-top: -50px;
     margin-left: 1000px;
@@ -422,7 +632,7 @@ footer{
     height: 30px;
 }
 
-#footertrain{
+#footertrain {
     width: 64px;
     height: 80px;
     float: left;
@@ -444,4 +654,4 @@ footer{
     bottom: 30px;
     display: none;
     z-index: 9999;
-}  
+}
