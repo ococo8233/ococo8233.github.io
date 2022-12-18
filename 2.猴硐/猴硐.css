@@ -1,4 +1,4 @@
-html {
+    html {
     height: 100%;
 }
 
@@ -371,7 +371,7 @@ hr{
     position: relative;
     transform-style: preserve-3d;
     transition: 2s;
-    margin-left: 15%;
+    margin-left: 14.4%;
     margin-top: -500px;
 }
 
@@ -430,7 +430,7 @@ h3{
     position: relative;
     transform-style: preserve-3d;
     transition: 2s;
-    margin-left: 40%;
+    margin-left: 39.4%;
     margin-top: -500px;
 }
 
@@ -481,7 +481,7 @@ h3{
     position: relative;
     transform-style: preserve-3d;
     transition: 2s;
-    margin-left: 65%;
+    margin-left: 64.4%;
     margin-top: -500px;
 }
 
@@ -576,7 +576,7 @@ footer{
     height: 80px;
     float: left;
     margin-top: -100px;
-    margin-left: 1650px;
+    margin-left: 1700px;
 }
 
 #fixedTop {
@@ -594,3 +594,10 @@ footer{
     display: none;
     z-index: 9999;
 }  
+
+#ActivityNotion {
+    position:fixed;
+    margin-top: 350px;
+    margin-left: 1835px;
+    cursor: pointer;
+}

@@ -139,7 +139,7 @@ a:hover {
     width: 262px;
     height: 150px;
     float: left;
-    margin-top: 25px;
+    margin-top: 50px;
     margin-left: 820px;
     
 }
@@ -154,111 +154,287 @@ a:hover {
 
 .text{
     float: left;
-    font-weight: bold;
+    line-height: 40px;
     font-size: 1.5rem;
 }
 
 #pic1{
-    margin-top: 250px;
-    margin-left: -800px;
+    margin-top: 180px;
 }
 #pic2{
-    margin-top: 320px;
-    margin-left: 1000px;
+    margin-top: 180px;
+    margin-left: 123px;
 }
 #pic3{
     margin-top: 180px;
-    margin-left: 250px;
 }
 #pic4{
     margin-top: 180px;
-    margin-left: 900px;
+    margin-left: 123px;
 }
 #pic5{
     margin-top: 180px;
-    margin-left: 200px;
 }
 #pic6{
     margin-top: 180px;
-    margin-left: 850px;
-}
-#pic7{
-    margin-top: 400px;
-    margin-left: -950px;
-}
-
-#pic8{
-    margin-top: 380px;
-    margin-left: 900px;
-}
-#pic9{
-    margin-top: 180px;
-    margin-left: 250px;
+    margin-left: 123px;
 }
 
 #text1{
-    margin-top: -5px;
-    margin-left: 1100px;
+    margin-top: -380px;
+    margin-left: 1170px;
  
 }
 #text2{
-    margin-top: -300px;
-    margin-left: 400px;
+    margin-top: -400px;
+    margin-left: 340px;
 }
 #text3{
-    margin-top: -380px;
-    margin-left: 1100px;
+    margin-top: -440px;
+    margin-left: 1150px;
 }
 #text4{
-    margin-top: -270px;
+    margin-top: -350px;
     margin-left: 330px;
 }
 #text5{
-    margin-top: -285px;
-    margin-left: 1120px;
+    margin-top: -355px;
+    margin-left: 1180px;
 }
 #text6{
-    margin-top: -290px;
-    margin-left: 330px;
-}
-#text7{
-    margin-top: 0px;
-    margin-left: 1050px;
-}
-#text8{
-    margin-top: -260px;
+    margin-top: -340px;
     margin-left: 350px;
-}
-#text9{
-    margin-top: 390px;
-    margin-left: -300px;
 }
 
 #title1{
-    margin-top: 340px;
-    margin-left: 130px;
-    color: #015eac;
+    margin-top: -500px;
+    margin-left: 1220px;
+    color: #783f03;
+    background-color: #c2e9fa;
+    border-left: 30px solid #17a300;
+    height: 80px;
+    width: 250px;
+    text-align: center;
+    line-height: 80px;
+    font-weight: 400;
 }
 #title2{
-    margin-top: -350px;
-    margin-left: 450px;
-    color: #015eac;
+    margin-top: -470px;
+    margin-left: 400px;
+    color: #783f03;
+    background-color: #c2e9fa;
+    border-left: 30px solid #17a300;
+    height: 80px;
+    width: 250px;
+    text-align: center;
+    line-height: 80px;
+    font-weight: 400;
 }
 #title3{
-    margin-top: 320px;
-    margin-left: 250px;
-    color: #015eac;
+    margin-top: -470px;
+    margin-left: 1220px;
+    color: #783f03;
+    background-color: #c2e9fa;
+    border-left: 30px solid #17a300;
+    height: 80px;
+    width: 250px;
+    text-align: center;
+    line-height: 80px;
+    font-weight: 400;
 }
 #title4{
-    margin-top: -360px;
-    margin-left: 450px;
-    color: #015eac;
+    margin-top: -460px;
+    margin-left: 400px;
+    color: #783f03;
+    background-color: #c2e9fa;
+    border-left: 30px solid #17a300;
+    height: 80px;
+    width: 250px;
+    text-align: center;
+    line-height: 80px;
+    font-weight: 400;
 }
 hr{
     width: 80%;
     float: left;
     margin-top: 180px;
     margin-left: 200px;
+}
+
+#card{
+    float: left;
+    color: #fff;
+    margin-top: -33%;
+    margin-left: 45%;
+    font-size: 3rem;
+}
+
+#activity {
+    width: 100%;
+    margin-top: 9%;
+    float: left;
+}
+
+#h21 {
+    background-color: #fff;
+    height: 70px;
+    margin-top: -5px;
+    line-height: 70px;
+}
+
+.card-filp1 {
+    float: left;
+    /* border: 3px solid red; */
+    height: 370px;
+    width: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 2s;
+    margin-left: 39.4%;
+    margin-top: -500px;
+}
+
+.front1{
+    border-radius: 20px;
+}
+
+.front1,
+.back1 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    backface-visibility: hidden;
+}
+
+.back1 {
+    transform: rotateY(180deg);
+}
+
+.card-filp1:hover {
+    transform: rotateY(180deg);
+}
+#act1{
+    border-radius: 20px 20px 0px 0px;
+}
+#p1{
+    border-radius: 20px;
+    font-size: 1.25rem;
+    margin-top: 0%;
+    background-color: #fafae0;
+    height: 370px;
+}
+
+h3{
+    background-color: #783f03;
+    color: #fff;
+    height: 50px;
+    margin-top: -20px;
+    line-height: 50px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+#h22 {
+    background-color: #fff;
+    height: 70px;
+    margin-top: -5px;
+    line-height: 70px;
+}
+
+.card-filp2 {
+    float: left;
+    /* border: 3px solid red; */
+    height: 370px;
+    width: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 2s;
+    margin-left: 14.4%;
+    margin-top: -500px;
+}
+
+.front2{
+    border-radius: 20px;
+}
+
+.front2,
+.back2 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    backface-visibility: hidden;
+}
+
+.back2 {
+    transform: rotateY(180deg);
+}
+
+.card-filp2:hover {
+    transform: rotateY(180deg);
+}
+#act2{
+    border-radius: 20px 20px 0px 0px;
+}
+#p2{
+    border-radius: 20px;
+    font-size: 1.25rem;
+    margin-top: 0%;
+    background-color: #fafae0;
+    height: 370px;
+    line-height: 30px;
+}
+
+#h23 {
+    background-color: #fff;
+    height: 70px;
+    margin-top: -5px;
+}
+
+.card-filp3 {
+    float: left;
+    height: 370px;
+    width: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 2s;
+    margin-left: 64.4%;
+    margin-top: -500px;
+}
+
+.front3{
+    border-radius: 20px;
+}
+
+.front3,
+.back3 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    backface-visibility: hidden;
+}
+
+.back3 {
+    transform: rotateY(180deg);
+}
+
+.card-filp3:hover {
+    transform: rotateY(180deg);
+}
+#act3{
+    border-radius: 20px 20px 0px 0px;
+}
+#p3{
+    border-radius: 20px;
+    font-size: 1.25rem;
+    margin-top: 0%;
+    background-color: #fafae0;
+    height: 370px;
+    line-height: 30px;
 }
 
 footer{
@@ -319,7 +495,7 @@ footer{
     height: 80px;
     float: left;
     margin-top: -100px;
-    margin-left: 1650px;
+    margin-left: 1700px;
 }
 
 #fixedTop {
@@ -337,3 +513,10 @@ footer{
     display: none;
     z-index: 9999;
 }  
+
+#ActivityNotion {
+    position:fixed;
+    margin-top: 350px;
+    margin-left: 1835px;
+    cursor: pointer;
+}

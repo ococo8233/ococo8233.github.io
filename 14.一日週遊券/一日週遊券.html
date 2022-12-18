@@ -27,7 +27,7 @@
             $(window).on('load scroll resize', function () {
                 // 檢查目前捲軸捲動的高度值有沒有超100，如果有，就出現TOP按鈕
                 // 捲軸捲動的高度值預設為100
-                var showTop = 1000;
+                var showTop = 500;
                 if ($(window).scrollTop() > showTop) {
                     // 淡入
                     fixedTop.fadeIn('normal');

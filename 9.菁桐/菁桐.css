@@ -347,7 +347,7 @@ hr {
     position: relative;
     transform-style: preserve-3d;
     transition: 2s;
-    margin-left: 15%;
+    margin-left: 64.4%;
     margin-top: -500px;
 }
 
@@ -403,7 +403,7 @@ h3{
     position: relative;
     transform-style: preserve-3d;
     transition: 2s;
-    margin-left: 40%;
+    margin-left: 14.4%;
     margin-top: -500px;
 }
 
@@ -454,7 +454,7 @@ h3{
     position: relative;
     transform-style: preserve-3d;
     transition: 2s;
-    margin-left: 65%;
+    margin-left: 39.4%;
     margin-top: -500px;
 }
 
@@ -553,7 +553,7 @@ footer {
     height: 80px;
     float: left;
     margin-top: -100px;
-    margin-left: 1650px;
+    margin-left: 1700px;
 }
 
 #fixedTop {
@@ -570,6 +570,13 @@ footer {
     bottom: 30px;
     display: none;
     z-index: 9999;
+}
+
+#ActivityNotion {
+    position:fixed;
+    margin-top: 350px;
+    margin-left: 1835px;
+    cursor: pointer;
 }
 
 /* 中尺寸(640-979) */
@@ -967,8 +974,8 @@ footer {
         position: relative;
         transform-style: preserve-3d;
         transition: 2s;
-        margin-left: 5%;
-        margin-top: -85%;
+        margin-left: 30%;
+        margin-top: -43%;
     }
     
     .front1,
@@ -1023,7 +1030,7 @@ footer {
         position: relative;
         transform-style: preserve-3d;
         transition: 2s;
-        margin-left: 52%;
+        margin-left: 5%;
         margin-top: -85%;
     }
     
@@ -1074,8 +1081,8 @@ footer {
         position: relative;
         transform-style: preserve-3d;
         transition: 2s;
-        margin-left: 30%;
-        margin-top: -43%;
+        margin-left: 52%;
+        margin-top: -85%;
     }
     
     .front3{
@@ -1174,7 +1181,7 @@ footer {
         height: 80px;
         float: left;
         margin-top: -80px;
-        margin-left: 750px;
+        margin-left: 880px;
     }
     
 }
@@ -1614,7 +1621,7 @@ footer {
         transform-style: preserve-3d;
         transition: 2s;
         margin-left: 8%;
-        margin-top: -260%;
+        margin-top: -90%;
     }
     
     .front1,
@@ -1670,7 +1677,7 @@ footer {
         transform-style: preserve-3d;
         transition: 2s;
         margin-left: 8%;
-        margin-top: -175%;
+        margin-top: -260%;
     }
     
     .front2,
@@ -1717,7 +1724,7 @@ footer {
         transform-style: preserve-3d;
         transition: 2s;
         margin-left: 8%;
-        margin-top: -90%;
+        margin-top: -175%;
     }
     
     .front3{
@@ -1814,9 +1821,9 @@ footer {
     #footertrain {
         width: 64px;
         height: 80px;
-        float: left;
+        /* float: left; */
         margin-top: -80px;
-        margin-left: 310px;
+        margin-left: 320px;
     }
     #fixedTop {
         padding: 15px 20px;

@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    scroll-behavior: auto;
 }
 
 @font-face {
@@ -427,7 +428,7 @@ hr {
     position: relative;
     transform-style: preserve-3d;
     transition: 2s;
-    margin-left: 15%;
+    margin-left: 14.4%;
     margin-top: -500px;
 }
 
@@ -487,7 +488,7 @@ h3{
     position: relative;
     transform-style: preserve-3d;
     transition: 2s;
-    margin-left: 40%;
+    margin-left: 39.4%;
     margin-top: -500px;
 }
 
@@ -532,13 +533,12 @@ h3{
 
 .card-filp3 {
     float: left;
-    /* border: 3px solid red; */
     height: 370px;
     width: 400px;
     position: relative;
     transform-style: preserve-3d;
     transition: 2s;
-    margin-left: 65%;
+    margin-left: 64.4%;
     margin-top: -500px;
 }
 
@@ -637,7 +637,7 @@ footer {
     height: 80px;
     float: left;
     margin-top: -100px;
-    margin-left: 1650px;
+    margin-left: 1700px;
 }
 
 #fixedTop {
@@ -654,4 +654,11 @@ footer {
     bottom: 30px;
     display: none;
     z-index: 9999;
+}
+
+#ActivityNotion {
+    position:fixed;
+    margin-top: 350px;
+    margin-left: 1835px;
+    cursor: pointer;
 }
